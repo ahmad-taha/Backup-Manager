@@ -1,0 +1,662 @@
+#name Light Theme
+MainBody[
+    border:0px solid grey;
+    background-color:#EAEDF2;
+    font-family:'Ubuntu Light';
+]
+closeBtn[
+    .QPushButton{
+        background-color:#2CA4E0;
+        border:0;
+        padding-left:15px;
+        padding-right:15px;
+        } 
+    .QPushButton:hover{
+        background-color:#1f97d3;
+        }
+]
+minimizeBtn[
+    .QPushButton{
+        background-color:#2CA4E0;
+        border:0;
+        padding-left:15px;
+        padding-right:15px;
+        } 
+    .QPushButton:hover{
+        background-color:#1f97d3;
+        }
+]
+
+titleBar[
+    .QPushButton{
+        background-color:#2CA4E0;
+        border:0;
+        text-align:left;
+    }
+]
+
+scrollBar[
+    QScrollBar:vertical {               
+            border: 0px solid #66b1e4;
+            background:#d9e9f4;
+            background-color:#d9e9f4;
+            width:10px;
+            height:20px;
+            border-right:2px solid #2CA4E0;
+        }
+    QScrollBar:vertical::pressed {               
+            background:white;
+            background-color:white;
+        }
+        QScrollBar::handle:vertical {
+            border-radius:0px;
+            background: #3498db;
+            background-color: #2CA4E0;
+            min-height: 100px;
+        }
+        QScrollBar::handle:vertical::pressed {
+            background-color: #45a0de;
+
+        }
+        QScrollBar::add-line:vertical {
+            height: 20px;
+            border-right:2px solid #2CA4E0;
+            subcontrol-position: bottom;
+            subcontrol-origin: margin;
+            background:white;
+        }
+        QScrollBar::sub-line:vertical {
+            border-right:2px solid #2CA4E0;
+            height: 20px;
+            background:white;
+            subcontrol-position: bottom;
+            subcontrol-origin: margin;
+        }
+    QScrollBar::handle:disabled{ 
+        background-color:#a5dbff;
+        border:0px;
+    }
+]
+
+FileExplorerBtn[
+    .QPushButton{
+        background-color:transparent;
+        text-align:left;
+        padding-left:15px;
+        padding-right:250px;
+        outline:1px solid #b4d5ed;
+        border:0px solid #1f97d3;
+    }
+    .QPushButton:pressed{
+        border:2px solid #b4d5ed;
+        padding-left:13px;
+        padding-right:248px;
+        outline:0px;
+    }
+    .QLabel{
+        color:black;
+        background-color:transparent;
+    }
+]
+
+FileExplorerBtn_NEW[
+    .QPushButton{
+        border:0px solid #1f97d3;
+        background-color:transparent;
+        text-align:left;
+        padding-left:15px;
+        padding-right:250px;
+        outline:1px solid #c5e3f9;
+        border-left:2px solid #a0ffc8;
+    }
+    .QPushButton:pressed{
+        border-left:4px solid #a0ffc8;
+        border-top:2px solid #b4d5ed;
+        border-right:2px solid #b4d5ed;
+        border-bottom:2px solid #b4d5ed;
+        padding-left:13px;
+        padding-right:248px;
+    }
+]
+
+FileExplorerBtn_SELECTED[
+    .QPushButton{
+        border:0px solid #1f97d3;
+        background-color:#b4d5ed;
+        text-align:left;
+        padding-left:15px;
+        padding-right:250px;
+        border:0;
+        outline:0px;
+    }
+]
+
+FileExplorerBtn_SELECTED_NEW[
+    .QPushButton{
+        border:0px solid #1f97d3;
+        background-color:#b4d5ed;
+        text-align:left;
+        padding-left:15px;
+        padding-right:250px;
+        border:0;
+        outline:none;
+        border-left:2px solid #a0ffc8;
+    }
+]
+
+FileExplorerBtn_SUCCESS(COLOR-ONLY)[
+    .QPushButton{
+        background-color:#a0ffc8;
+        border:0;
+    }
+]
+
+
+explorerBox[
+    .QMdiSubWindow{
+        border:2px solid #2CA4E0;
+        border-right:0;
+    }
+    .QPushButton{
+        border:2px solid #2CA4E0;
+    }
+]
+
+actionButtons[
+    .QPushButton{
+        background-color:#2CA4E0;
+        border:0px solid white;
+        border-radius:35px;
+    }
+    .QPushButton:hover{
+        background-color:#1f97d3;
+    }
+    .QPushButton::pressed{
+        background-color:#1c87bd;
+    }
+]
+
+titlebtn[
+    .QPushButton{
+        background-color:#2CA4E0;
+        border:0;
+        font-size:13px;
+    }
+    .QPushButton:hover{
+        background-color:#1f97d3;
+    }
+    .QPushButton::pressed{
+        background-color:#1c87bd;
+    }
+]
+
+titleBtn_ON[
+    .QPushButton{
+        background-color:#1f97d3;
+        border-top:2px solid white;
+        font-size:13px;
+    }
+]
+settingsBody[
+    background-color:white;
+    color:black;
+    font-size:20px;
+]
+
+settingComboBox[
+    .QComboBox{
+        border:1px solid #2ecc71;
+        font-size:13px;
+        font-family:'Ubuntu Light';
+        color : #2ecc71;
+        padding-left:10px;
+        border-radius:2px;
+    } 
+    .QComboBox::disabled{
+        border:1px solid #bdc3c7;
+        color:#bdc3c7;
+    }
+    .QListView{
+        background-color:red;
+    } 
+    .QComboBox::drop-down{
+        background-color:#2ecc71;
+    } 
+    .QComboBox::drop-down::disabled{
+        background-color:#bdc3c7;
+    } 
+    .QComboBox .QListView{
+        background-color:red;
+    }
+]
+
+checkBox[
+    QCheckBox {
+        spacing: 5px;
+        padding:10px;
+        font-size:20px;
+        font-family:'Ubuntu Light';
+    }
+    QCheckBox::indicator {
+        width: 30px;
+        height: 30px;
+    }
+    QCheckBox::indicator:checked {
+        image: url("Icons/checked.png");
+    }
+    QCheckBox::indicator:unchecked {
+        image: url("Icons/unchecked.png");
+    }
+]
+radioButton[
+    QRadioButton {
+        spacing: 5px;
+        padding:10px;
+        font-size:20px;
+        font-family:'Ubuntu Light';
+    }
+    QRadioButton::indicator {
+        width: 30px;
+        height: 30px;
+    }
+    QRadioButton::indicator:checked {
+        image: url("Icons/checked2.png");
+    }
+    QRadioButton::indicator:unchecked {
+        image: url("Icons/unchecked2.png");
+    }
+]
+
+setingsLabel[
+    .QLabel{
+        font-size:15px;
+        font-family:'Ubuntu Light';
+    }
+]
+
+setingsLabel_NOTE[
+    .QLabel{
+        font-size:13px;
+        font-family:'Ubuntu Light';
+        color:grey;
+    }
+]
+
+setingsSaveBtn[
+    .QPushButton{
+        background-color:#48db86;
+        border:0;
+        color:white;
+        font-family:'Ubuntu Light';
+        border-radius:2px;
+    } 
+    .QPushButton:hover{
+        background-color:#2ecc71;
+    }
+    .QPushButton:pressed{
+        background-color:#6bde9c;
+    }
+]
+
+notificationBox[
+    .QLabel{
+        background-color:#19B5FE;
+        border-radius:0px;
+        border:0px solid #27ae60;
+        padding-left:20px;
+        padding-right:20px;
+        font-size:20px;
+        color:white;
+        text-align:center;
+        border-left:2px solid white;
+        border-right:2px solid white;
+        font-family:'Ubuntu Light';
+    }
+]
+
+notificationOKBtn[
+    .QPushButton{
+        background-color:#22A7F0;
+        color:white;
+        border:6px solid #19B5FE;
+        font-family:'Ubuntu Light';
+        font-size:14px;
+    }
+    .QPushButton:hover{
+        background-color:#59bdf4;
+    }
+]
+
+fileInfoLabel[
+    .QLabel{
+        font-family:'Ubuntu Light';
+        font-size:18px;
+        color:white;
+        background-color:transparent;
+    }
+]
+fileInfoProperties[
+    .QLabel{
+        color:white;
+        background-color:transparent;
+    }
+]
+
+fileInfoBox[
+    .QPushButton{
+        background-color: #2CA4E0;
+    }
+]
+
+hide_show_propertiesBtn[
+    .QPushButton{
+        background-color:#2CA4E0;
+        border:2px solid white;
+        color:white;
+        border-radius:2px;
+        font-family:'Ubuntu Light';
+    }
+    .QPushButton:hover{
+        background-color:#1f97d3;
+    }
+    .QPushButton:pressed{
+        background-color:white;
+        color:#2CA4E0;
+    }
+]
+
+about_BackBtn[
+    .QPushButton{
+        background-color:#2CA4E0;
+        border:2px solid white;
+        color:white;
+        font-size:20px;
+        border-radius:2px;
+        font-family:'Ubuntu Light';
+        text-align:left;
+        padding-left:15px;
+    }
+    .QPushButton:hover{
+        background-color:#1f97d3;
+    }
+    .QPushButton:pressed{
+        background-color:white;
+        color:#2CA4E0;
+    }
+]
+
+hide_show_propertiesBtn_old[
+    .QPushButton{
+        background-color:#19B5FE;
+        border-radius:2px;
+        color:white;
+        font-family:'Ubuntu Light';
+    }
+    .QPushButton:hover{
+        background-color:#22A7F0;
+    }
+    .QPushButton:pressed{
+        background-color:#6BB9F0;
+    }
+]
+
+prompt_action_btns[
+    .QPushButton{
+        background-color:#19B5FE;
+        border-radius:2px;
+        color:white;
+        font-family:'Ubuntu Light';
+        padding:6px;
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .QPushButton:hover{
+        background-color:#22A7F0;
+    }
+    .QPushButton:pressed{
+        background-color:#6BB9F0;
+    }
+    .QLabel{
+        font-size:15px;
+    }
+    .QLineEdit{
+        background-color:white;
+        padding:3px;
+        font-size:13px;
+        border:1px solid #2CA4E0;
+    }
+]
+
+searchBox[
+    .QLineEdit{
+        background-color:#2CA4E0;
+        font-size:13px;
+        padding-left:15px;
+        padding-right:40px;
+        border-radius:0px;
+        border:0px solid #156FAD;
+        color:white;
+    }
+    .QLineEdit:focus{
+        border:0px solid #d5dee0;
+        background-color:#1f97d3;
+    }
+]
+
+clearSearchButton[
+    .QPushButton{
+        background-color : transparent;
+    }
+    .QPushButton:hover{
+        background-color:#22A7F0;
+    }
+    .QPushButton::pressed{
+        background-color:#1c87bd;
+    }
+]
+
+back_forward_button[
+    .QPushButton{
+        background-color:#2CA4E0;
+    }
+    .QPushButton:hover{
+        background-color:#1f97d3;
+    }
+    .QPushButton::pressed{
+        background-color:#1c87bd;
+    }
+    .QPushButton::disabled{
+        background-color:#42aee3;
+    }
+]
+menuButtons[
+    .QPushButton{
+        background-color:#2CA4E0;
+        color:white;
+        font-family:'Lucida Sans';
+        border:0px solid white;
+        
+    }
+    .QPushButton:hover{
+        background-color:#1f97d3;
+    }
+    .QPushButton::pressed{
+        background-color:#1c87bd;
+    }
+    .QPushButton::disabled{
+        color:#acd2e5;
+    }
+]
+viewButton[
+    .QPushButton{
+        background-color:#2CA4E0;
+        color:white;
+        font-family:'Lucida Sans';
+        border:0px solid white;
+        text-align:left;
+        padding-left:10px;
+        border-radius:2px;
+        border:2px solid #2CA4E0;
+    }
+    .QPushButton:hover{
+        background-color:#1f97d3;
+    }
+    .QPushButton::pressed{
+        border:2px solid #2CA4E0;
+        background-color:#b4d5ed;
+        color:white;
+    }
+    .QPushButton::disabled{
+        color:#acd2e5;
+    }
+]
+LocationBar[
+    .QPushButton{
+        background-color:#2CA4E0;
+        color:white;
+        font-family:'Lucida Sans';
+        border:0px solid white;
+        text-align:left;
+        padding-left:10px;
+        
+    }
+    .QPushButton:hover{
+        background-color:#1f97d3;
+    }
+    .QPushButton::pressed{
+        background-color:#1c87bd;
+    }
+]
+PopMenu[
+    QMenu {
+        background-color: #1886D1;
+        border-left: 2px solid #2CA4E0;
+        border-radius:0px;
+        color:white;
+        border-top:0px solid red;
+    }
+    QMenu::separator{
+        background-color:#2CA4E0;
+        height:1px;
+    }
+    QMenu::item {
+        padding:10px;
+        padding-right:70px;
+        padding-left:15px;
+        width:120px;
+    }
+    QMenu::item::disabled{
+        background-color:#6fc1ea;
+    }
+    QMenu::item::disabled:selected{
+        background-color:#6fc1ea;
+    }
+    QMenu::item:selected {
+        background-color: #10588A;
+    }
+    QMenu::item:pressed {
+        background-color: #11598B;
+    }
+]
+PopMenu2[
+    QMenu {
+        background-color: #FFFFFF;
+        border-left: 2px solid #1780D3;
+        border-radius:0px;
+        color:#8c8a8a;
+        border-top:0px solid red;
+    }
+    QMenu::item {
+        padding:10px;
+        padding-right:70px;
+        padding-left:15px;
+    }
+    QMenu::item::disabled{
+        background-color:white;
+        color:lightgrey;
+    }
+    QMenu::item::disabled:selected{
+        background-color:white;
+    }
+    QMenu::item:selected {
+        background-color: #EEEEEE;
+    }
+    QMenu::item:pressed {
+        background-color: #CCCCCC;
+    }
+]
+
+propertiesWin[
+    background-color:white;
+    color:black;
+    font-family:'Ubuntu Light';
+]
+loadingWin[
+    .QWidget{
+        border:1px solid #34495e;
+        background-color:white;
+    }
+    .QLabel{
+        font-family:'Ubuntu Light';
+    }
+]
+aboutWin[
+    .QWidget{
+        border-top:2px solid white;;
+        background-color:#2CA4E0;
+        font-family:'Ubuntu Light';
+    }
+    .QPushButton{
+        background-color:transparent;
+    }
+]
+
+helpWin[
+    .QWidget{
+        border-top:2px solid white;;
+        background-color:#2CA4E0;
+        font-family:'Ubuntu Light';
+    }
+    .QPushButton{
+        background-color:transparent;
+    }
+]
+
+updateWin[
+    .QWidget{
+        border-top:2px solid white;;
+        background-color:#009BFF;
+        font-family:'Ubuntu Light';
+    }
+    .QPushButton{
+        background-color:transparent;
+    }
+]
+
+updateLabel[
+    .QTextEdit{
+        color:white;
+        font-size:50px;
+        background-color:transparent;
+    }
+]
+
+searchResult[
+    .QPushButton{
+        background-color:#2CA4E0;
+        color:white;
+        font-size:14px;
+    }
+]
+noResultFound[
+    .QPushButton{
+        background-color:#2CA4E0;
+        color:#d35400;
+        font-size:14px;
+    }
+]
+Default_Color[
+    .QPushButton{
+        background-color:#2CA4E0;
+    }
+]

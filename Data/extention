@@ -1,0 +1,178 @@
+*BACKUP MANAGER HELP:This is the file containing list of all extention 'details'. You can add or edit extentions to imporove the database. CAUTION - DO NOT ADD SPACES, GO LIKE THEY ARE BELOW
+3G2:3GPP2 Multimedia File  (Video File)
+3GP:3GPP Multimedia File  (Video File)
+ASF:Advanced Systems Format File  (Video File)
+AVI:Audio Video Interleave File
+FLV:Animate Video File  (Video File)
+M4V:iTunes Video File  (Video File)
+MOV:Apple QuickTime Movie  (Video File)
+MP4:MPEG-4 Video File  (Video File)
+MPG:MPEG Video File  (Video File)
+RM:RealMedia File  (Video File)
+SRT:SubRip Subtitle File
+SWF:Shockwave Flash Movie (Video File)
+VOB:DVD Video Object File  (Video File)
+WMV:Windows Media Video File  (Video File)
+AIF:Audio Interchange File Format   (Audio File)
+IFF:Interchange File Format   (Audio File)
+M3U:Media Playlist File   (Audio File)
+M4A:MPEG-4 Audio File   (Audio File)
+MID:MIDI File   (Audio File)
+MP3:MP3 Audio File   (Audio File)
+MPA:MPEG-2 Audio File   (Audio File)
+WAV:WAVE Audio File   (Audio File)
+WMA:Windows Media Audio File   (Audio File)
+DOC:Microsoft Word Document
+DOCX:Microsoft Word Open XML Document
+LOG:Log File
+MSG:Outlook Mail Message
+ODT:OpenDocument Text Document
+PAGES:Pages Document
+RTF:Rich Text Format File
+TEX:LaTeX Source Document
+TXT:Plain Text File
+WPD:WordPerfect Document
+WPS:Microsoft Works Word Processor Document
+CSV:Comma Separated Values File
+DAT:Data File
+GED:GEDCOM Genealogy Data File
+KEY:Keynote Presentation
+KEYCHAIN:Mac OS X Keychain File
+PPS:PowerPoint Slide Show
+PPT:PowerPoint Presentation
+PPTX:PowerPoint Open XML Presentation
+SDF:Standard Data File
+TAR:Consolidated Unix File Archive
+TAX2016:TurboTax 2016 Tax Return
+VCF:vCard File
+XML:XML File
+3DM:Rhino 3D Model
+3DS:3D Studio Scene
+MAX:3ds Max Scene File
+OBJ:Wavefront 3D Object File
+BMP:Bitmap Image File
+DDS:DirectDraw Surface
+GIF:Graphical Interchange Format File
+JPG:JPEG Image
+PNG:Portable Network Graphic
+PSD:Adobe Photoshop Document
+TGA:Targa Graphic
+THM:Thumbnail Image File
+TIF:Tagged Image File
+TIFF:Tagged Image File Format
+YUV:YUV Encoded Image File
+PSPIMAGE:PaintShop Pro Image
+AI:Adobe Illustrator File
+EPS:Encapsulated PostScript File
+PS:PostScript File
+SVG:Scalable Vector Graphics File
+INDD:Adobe InDesign Document
+PCT:Picture File
+PDF:Portable Document Format File
+XLR:Works Spreadsheet
+XLS:Excel Spreadsheet
+XLSX:Microsoft Excel Open XML Spreadsheet
+DBF:Database File
+MDB:Microsoft Access Database
+PDB:Program Database
+SQL:Structured Query Language Data File
+ACCDB:Access 2007 Database File
+DB:Database File
+APK:Android Package File
+APP:Mac OS X Application
+BAT:DOS Batch File
+CGI:Common Gateway Interface Script
+COM:DOS Command File
+EXE:Windows Executable File
+JAR:Java Archive File
+WSF:Windows Script File
+DEM:Video Game Demo File
+GAM:Saved Game File
+NES:Nintendo (NES) ROM File
+ROM:N64 Game ROM File
+SAV:Saved Game
+GADGET:Windows Gadget
+DWG:AutoCAD Drawing Database File
+DXF:Drawing Exchange Format File
+GPX:GPS Exchange File
+KML:Keyhole Markup Language File
+KMZ:Google Earth Placemark File
+ASP:Active Server Page
+ASPX:Active Server Page Extended File
+CER:Internet Security Certificate
+CFM:ColdFusion Markup File
+CSR:Certificate Signing Request File
+CSS:Cascading Style Sheet
+HTM:Hypertext Markup Language File
+HTML:Hypertext Markup Language File
+JSP:Java Server Page
+PHP:PHP Source Code File
+RSS:Rich Site Summary
+XHTML:Extensible Hypertext Markup Language File
+JS:JavaScript File
+CRX:Chrome Extension
+PLUGIN:Mac OS X Plugin
+FNT:Windows Font File
+FON:Generic Font File
+OTF:OpenType Font
+TTF:TrueType Font
+CAB:Windows Cabinet File
+CPL:Windows Control Panel Item
+CUR:Windows Cursor
+DLL:Dynamic Link Library
+DMP:Windows Memory Dump
+DRV:Device Driver
+ICNS:Mac OS X Icon Resource File
+ICO:Icon File
+LNK:Windows File Shortcut
+SYS:Windows System File
+DESKTHEMEPACK:Windows 8 Desktop Theme Pack File
+CFG:Configuration File
+INI:Windows Initialization File
+PRF:Outlook Profile File
+HQX:BinHex 4.0 Encoded File
+MIM:Multi-Purpose Internet Mail Message File
+UUE:Uuencoded File
+CBR:Comic Book RAR Archive
+DEB:Debian Software Package
+PKG:Mac OS X Installer Package
+RAR:WinRAR Compressed Archive
+RPM:Red Hat Package Manager File
+SITX:StuffIt X Archive
+ZIP:Zipped File
+ZIPX:Extended Zip File
+7Z:7-Zip Compressed File
+TAR.GZ:Compressed Tarball File
+GZ:Gnu Zipped Archive
+BIN:Binary Disc Image
+CUE:Cue Sheet File
+DMG:Mac OS X Disk Image
+ISO:Disc Image File
+MDF:Media Disc Image File
+TOAST:Toast Disc Image
+VCD:Virtual CD
+C:C/C++ Source Code File
+CLASS:Java Class File
+CPP:C++ Source Code File
+CS:Visual C# Source Code File
+DTD:Document Type Definition File
+FLA:Adobe Animate Animation
+H:C/C++/Objective-C Header File
+JAVA:Java Source Code File
+LUA:Lua Source File
+M:Objective-C Implementation File
+PL:Perl Script
+PY:Python Script
+SH:Bash Shell Script
+SLN:Visual Studio Solution File
+SWIFT:Swift Source Code File
+VB:Visual Basic Project Item File
+VCXPROJ:Visual C++ Project
+XCODEPROJ:Xcode Project
+BAK:Backup File
+TMP:Temporary File
+CRDOWNLOAD:Chrome Partially Downloaded File
+ICS:Calendar File
+MSI:Windows Installer Package
+PART:Partially Downloaded File
+TORRENT:Torrent File

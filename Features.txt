@@ -1,0 +1,31 @@
+[DONE]> SHow/Hide File Properties
+[DONE]> Show extention details  from https://fileinfo.com/extension/psd, TIP - 'button = link in QLABEL'
+[DONE]> SAVE settings chosen
+[DONE]> SAVE theme chosen (setting)
+[DONE]> Prompt on any action
+[DONE]> Do not add history of folders chosen if the same exists (DATA/WORKSPACE1/2) there are 1000s line of history that may make solwer start
+[DONE]> Prompt to replace file if already exists
+[DONE]> 'NO RESULTL FOUND' text when searching
+[DONE]> Location bar text-align = left
+[DONE]> MENU BAR : GO BACK, NEw FOlder, Rename, Forward, FOLDER PATH
+[DONE]> RIGHT CLICK : RENAME, OPEN, REVEAL IN EXPLORER, OPEN INSIDE,COpy Name
+[DECL]> 3 buttons for  folder switching (1. open this other side(1 to 2), 2. swith both, 3. open 2 to 1
+[DONE]> Menu bar short screen support (by remobing one button)
+[DONE]>SELECT/DESELECT ALL
+[DONE]> Do not rename extension
+
+> Loading Thread, TIP - Opening Downloads Folder takes a lot of time
+
+[DONE]>Remove rename btn from menu bar insetad select/deselect all
+[DONE]>RENAME has BUG (extionsion is also renamed)
+[DONE]> ONLY append to selected file variable if same is not there
+
+[FAIL]> Select Next Item Automatically (Toggleable in settings)
+
+> Increase size of explorer box when Hide Properties is enabled
+
+[DONE]> Send to trash button function
+[DONE]> Copy files one by one 
+[DONE]> Fix Scroll BAr Style (Pixels)
+> SETTINGS: Always replace files without prompt
+> Copy/Move/Delete error handler
